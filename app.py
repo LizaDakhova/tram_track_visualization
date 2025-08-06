@@ -15,4 +15,4 @@ selected_file = st.selectbox("Выберите трек:", list(files.keys()))
 with open(files[selected_file], "r", encoding="utf-8") as file:
     html_code = file.read()
 
-st.components.v1.html(html_code, height=900, width=1600)
+st.components.v1.html(html_code, height=800, width=1600)
